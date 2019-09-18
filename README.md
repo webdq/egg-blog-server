@@ -15,11 +15,11 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        username | 手机号 | √
-        password | 密码 | √
-        email | 邮箱 | √
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | username | 手机号 | √ |
+        | password | 密码 | √ |
+        | email | 邮箱 | √ |
 
 - 登录
 
@@ -29,10 +29,10 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        username | 手机号 | √
-        password | 密码 | √
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | username | 手机号 | √ |
+        | password | 密码 | √ |
 
 - 退出
 
@@ -48,11 +48,11 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        pageNum | 当前页码 | 口
-        pageSize | 一页显示多少条 | 口
-        keyword | 搜索关键字 | 口
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | pageNum | 当前页码 | 口 |
+        | pageSize | 一页显示多少条 | 口 |
+        | keyword | 搜索关键字 | 口 |
 
 - 添加分类
 
@@ -62,9 +62,9 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        name | 分类名 | √
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | name | 分类名 | √ |
 
 - 更新分类
 
@@ -74,10 +74,10 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        :id | 分类的id | √
-        name | 分类名 | √
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | :id | 分类的id | √ |
+        | name | 分类名 | √ |
 
 - 删除分类
 
@@ -87,10 +87,10 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        :id | 分类的id | √
-        ids | 分类的id数组 | 口
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | :id | 分类的id | √ |
+        | ids | 分类的id数组 | 口 |
 
 - 获取文章
 
@@ -100,11 +100,11 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        pageNum | 当前页码 | 口
-        pageSize | 一页显示多少条 | 口
-        keyword | 搜索关键字 | 口
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | pageNum | 当前页码 | 口 |
+        | pageSize | 一页显示多少条 | 口 |
+        | keyword | 搜索关键字 | 口 |
 
 - 添加文章
 
@@ -114,11 +114,11 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        category | 分类id | √
-        title | 标题 | √
-        content | 内容 | √
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | category | 分类id | √ |
+        | title | 标题 | √ |
+        | content | 内容 | √ |
 
 - 更新文章
 
@@ -128,12 +128,12 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        :id | 文章id | √
-        category | 分类id | √
-        title | 标题 | √
-        content | 内容 | √
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | :id | 文章id | √ |
+        | category | 分类id | √ |
+        | title | 标题 | √ |
+        | content | 内容 | √ |
 
 - 删除文章
 
@@ -143,10 +143,10 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        :id | 文章的id | √
-        ids | 文章的id数组 | 口
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | :id | 文章的id | √ |
+        | ids | 文章的id数组 | 口 |
 
 - 增加文章PV
 
@@ -156,9 +156,9 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        :id | 文章id | √
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | :id | 文章id | √ |
 
 - 添加文章评论
 
@@ -168,8 +168,8 @@
 
     - PARAMS:
         
-        参数 | 说明 | required
-        - | - | -
-        :id | 文章id | √
-        content | 内容 | √
+        | 参数 | 说明 | required |
+        | - | - | - |
+        | :id | 文章id | √ |
+        | content | 内容 | √ |
 
